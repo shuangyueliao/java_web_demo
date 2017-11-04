@@ -1,0 +1,36 @@
+img {
+	width: 450px;
+	height: 450px;
+}
+
+#main {
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid black;
+	height: 450px;
+}
+#right{
+	float: right;
+	margin-right: 150px;
+	margin-top: 50px;
+	width: 400px;
+}
+#name {
+	font: 700 16px Arial, "microsoft yahei";
+	color: #666;
+	
+}
+
+#price {
+	color: #e4393c;
+	font-size: 22px;
+	
+}
+pre {
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+#bottom{
+	margin: 0 auto;
+	width: 80%;
+}

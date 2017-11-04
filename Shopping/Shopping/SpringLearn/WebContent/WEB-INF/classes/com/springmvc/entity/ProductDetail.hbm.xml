@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.springmvc.entity.ProductDetail" table="productDetail">
+		<id name="id" column="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="introduction" column="introduction" length="1000" type="java.lang.String"></property>
+		<property name="standard" column="standard" type="java.lang.String" length="1000"></property>
+		<many-to-one name="product" column="productId"  class="com.springmvc.entity.Product"  lazy="false"/>
+	</class>
+	
+</hibernate-mapping>

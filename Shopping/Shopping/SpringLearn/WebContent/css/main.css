@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+}
+#main {
+	margin: 30px 100px 0px 100px;
+}
+
+.product {
+	width: 242px;
+	height: 285px;
+	
+}
+
+.productImg {
+	width: 182px;
+	height: 182px;
+	display: block;
+	margin: 0 auto;
+}
+
+.label {
+	font: 12px/150% tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+	margin: 10px;
+}
+
+.price {
+	font: 12px/150% tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+	margin-left: 17px;
+	font-size: 18px;
+	line-height: 18px;
+	color: #c61822;
+}
+ul{
+	list-style: none;
+}
+li{
+	float: left;
+}
